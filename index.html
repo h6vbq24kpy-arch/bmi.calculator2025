@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI計算アプリ</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1 class="head-line">BMI計算アプリ</h1> <!--画像上のヘッダー部分-->
+</header>
+
+<section id="input-line">
+    <p class="explain">あなたの身長と体重を入力し「計算」をクリック</p>
+    <div class="height"><label>身長: <input type="tel"> cm</label></div><br>
+    <div class="weight"><label>体重: <input type="tel"> kg</label></div><br>
+</section>
+
+<div class="button-line">
+    <button class="button">計算</button>
+    <button class="reset">クリア</button>
+</div>
+
+<div class="result-line">
+    <div class="result"><label>BMI値: <input readonly></label></div><br>
+    <div class="BMIcategory"><label>肥満度: <input readonly ></label></div>
+</div>
+
+<div id="popup" class="hidden"></div>
+
+<!-- twitter -->
+<div class="Twitter"></div>
+
+<div  class="reserved">
+<small>&copy;2025 Riki Ikeda</small>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
